@@ -1,0 +1,27 @@
+.feature__icon-conteiner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+
+  background-color: $secondary-background-color;
+  border-radius: 4px;
+
+  margin-bottom: 30px;
+}
+
+.feature__list {
+  display: flex;
+  gap: 30px;
+}
+.feature__tittle {
+  font-size: 14px;
+  color: $secondary-text-color;
+}
+.feature__text {
+  line-height: 1.71;
+  margin-top: 10px;
+}
+.feature__item {
+  width: 270px;
+}
